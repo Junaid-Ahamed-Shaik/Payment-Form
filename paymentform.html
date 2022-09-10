@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <p><em>* Fields Are Mandatory</em></p>
+        <h2>User Details</h2>
+        <span>*FirstName : <input type="text" name="Fname" id="Fname" required> </span>
+        <span>*LastName : <input type="text" name="Lname" id="Lname" required> </span>
+        <p>
+        <fieldset>
+            <legend>*Gender</legend>
+            <input type="radio" name="gender" id="male" required>Male
+            <br>
+            <input type="radio" name="gender" id="female" required>Female
+            <br>
+            <input type="radio" name="gender" id="other" required>Other
+        </fieldset>
+        </p>
+        <span>*Mobile no : <input type="number" name="mobile" id="mobile" required> </span>
+        <span>Email : <input type="mail" name="email" id="email"></span>
+        <p>Adress : <textarea name="" id="" cols="80" rows="7"></textarea></p>
+        <p>*Pincode : <input type="number" name="Pin" id="Pin"></p>
+        <hr>
+        <h2>Payment Details</h2>
+        <p>*Card Type : 
+        <select name="" id="">
+            <option value="">--Select a Card Type--</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Visa">Visa</option>
+        </select>
+        </p>
+        <p>*Card Number : <input type="number" name="card no" id="card no" required></p>
+        <p>*Cvv : <input type="password" name="security" id="security" required></p>
+        <p>*Expiry : <input type="date" name="Date" id="Date" required></p>
+        <p><input type="submit" value="Pay"></p>
+
+    </form>
+</body>
+</html>
